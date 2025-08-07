@@ -1,0 +1,122 @@
+[
+    {
+    "id": "1",
+    "name":"Robe midi à bretelles rouge",
+    "taille":"S-36",
+    "description": "Celine short dress, 100% coton",
+    "condition": "Excellent",
+    "price":"25",
+    "img": "public/img/robe-midi-rouge.jpg",
+    "type":"robe"
+},
+{
+    "id": "2",
+    "name":"Robe midi à bretelles bleu",
+    "taille":"M-42",
+    "description": "Mugler short dress, 100% coton",
+    "condition": "Excellent",
+    "price":"20",
+    "img": "public/img/muglerBleu.jpg",
+    "type":"robe"
+},
+{
+    "id": "3",
+    "name":"Robe midi à bretelles violette",
+    "taille":"S-36",
+    "description": "Mugler short dress, 100% coton",
+    "condition": "Excellent",
+    "price":"45",
+    "img": "public/img/muglerViolet.jpg",
+    "type":"robe"
+},
+{
+    "id": "4",
+    "name":"Robe midi à bretelles noire",
+    "taille":"M-42",
+    "description": "Mugler short dress, 100% coton",
+    "condition": "Excellent",
+    "price":"35",
+    "img": "public/img/muglerNoir.jpg",
+    "type":"robe"
+},
+{
+    "id": "5",
+    "name":"Corset blanc",
+    "taille":"XS-34",
+    "description": "Corset blanc",
+    "condition": "Excellent",
+    "price":"35",
+    "img": "public/img/MuglerCorset.jpg",
+    "type":"top"
+},
+{
+    "id": "6",
+    "name":"Top bateau noir",
+    "taille":"L-44",
+    "description": "Top Chanel noir avec paillettes",
+    "condition": "Excellent",
+    "price":"33",
+    "img": "public/img/bateea.jpg",
+    "type":"top"
+},
+{
+    "id": "7",
+    "name":"Pull Miel",
+    "taille":"M-40",
+    "description": "Pull vert Miel et rose en laine",
+    "condition": "Excellent",
+    "price":"40",
+    "img": "public/img/pull.jpg",
+    "type":"laine"
+},
+{
+    "id": "8",
+    "name":"Jupe Miu Miu",
+    "taille":"M-40",
+    "description": "Jupe orange Miu Miu portefeuille",
+    "condition": "Excellent",
+    "price":"20",
+    "img": "public/img/jupe.jpg",
+    "type":"jupe"
+},
+{
+    "id": "9",
+    "name":"Veste Chanel",
+    "taille":"M-40",
+    "description": "Veste Chanel bleu nuit",
+    "condition": "Excellent",
+    "price":"90",
+    "img": "public/img/vestBleu.jpg",
+    "type":"veste"
+},
+{
+    "id": "10",
+    "name":"Top rose",
+    "taille":"M-36",
+    "description": "Top rose sans manches",
+    "condition": "Excellent",
+    "price":"15",
+    "img": "public/img/topRose.jpg",
+    "type":"top"
+},
+{
+    "id": "11",
+    "name":"Pantalon léopard",
+    "taille":"L-44",
+    "description": "Pantalon bleu léopard Miu Miu",
+    "condition": "Excellent",
+    "price":"55",
+    "img": "public/img/pantsLeopard.jpg",
+    "type":"pantalon"
+},
+{
+    "id": "12",
+    "name":"Top noir",
+    "taille":"M-40",
+    "description": "Top noir transparent Diesel",
+    "condition": "Excellent",
+    "price":"35",
+    "img": "public/img/topTransparant.jpg",
+    "type":"top"
+}
+]

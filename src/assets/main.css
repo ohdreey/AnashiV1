@@ -1,0 +1,20 @@
+@import './base.css';
+
+:root{
+  --header-height: 88px;
+  --footer-height: 270px;
+  --main-orange: #F37022;
+  --main-yellow: #FEF5D2;
+  --height-header: 88px;
+  --height-footer: 270px;
+
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
