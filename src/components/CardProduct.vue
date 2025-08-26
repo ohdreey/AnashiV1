@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 <template>
     <div class="cardProduct">
-        <div class="cardProductContainer" v-for="product in productInfo" 
+        <div class="cardProductContainer" v-for="product in productInfo"
         :key="product.id" >
             <img :src="product.img" :alt="product.name" />
             <div class="labelCardProduct"   >
@@ -18,7 +18,7 @@ const props = defineProps({
             </div>
 
         </div>
-       
+
 
     </div>
 </template>
@@ -26,15 +26,16 @@ const props = defineProps({
 .cardProduct{
     width: calc(100vw - 408px);
     position: relative;
-    /* left: 700px; */
-    bottom: 0;
+    bottom: 50px;
+    /* border: 1px solid rgb(255, 0, 0); */
     right: 0;
     top: 50px;
     display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(4, 1fr);
-grid-column-gap: 2px;
-grid-row-gap: 30px;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 30px;
 
 
 

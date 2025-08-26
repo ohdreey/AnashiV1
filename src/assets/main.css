@@ -1,18 +1,18 @@
 @import './base.css';
 
 :root{
-  --header-height: 88px;
-  --footer-height: 270px;
   --main-orange: #F37022;
   --main-yellow: #FEF5D2;
-  --height-header: 88px;
-  --height-footer: 270px;
-
+  --header-height: 100px;
+  --footer-height: 100px;
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
+  /* background-color: var(--main-yellow); */
+
 }
+
 
 a {
   text-decoration: none;

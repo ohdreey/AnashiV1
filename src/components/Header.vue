@@ -1,14 +1,16 @@
 <template>
     <div class="headerContainer">
         <nav>
-            <a href=#>FEMME</a>
-            <a href=#>HOMME</a>
+            <router-link to="/vetements">VÊTEMENTS</router-link>
+            <!-- <a href=#>HOMME</a> -->
         </nav>
-        <img src ="../assets/img/logo.png" alt="logo Anashi"/>
-        <nav>
+        <router-link to="/">
+          <img src ="../assets/img/logo.png" alt="logo Anashi"/>
+        </router-link>
+        <!-- <nav>
             <a href=#>LOGIN</a>
             <a href=#>PANIER</a>
-        </nav>
+        </nav> -->
     </div>
 </template>
 
@@ -18,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: var(--header-height);
+    height: 100px;
     padding: 40px 55px;
     background-color: #f8f8f8;
     color: var(--main-orange);

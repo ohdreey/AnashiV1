@@ -1,10 +1,12 @@
 <template>
     <div class="footerContenair">
+      <router-link to="/">
         <div class="logoFooter">
             <img src="../assets/img/ANASHI.png" alt="logo anashi" />
         </div>
+      </router-link>
 
-        <div class="colonneNav">
+        <!-- <div class="colonneNav">
             <nav class="aideNav">
                 <h4>Aide & Contact</h4>
                     <a href="#">CVG</a>
@@ -18,20 +20,22 @@
                     <a href="#">Instagram</a>
                     <a href="#">Tik Tok</a>
             </nav>
-        </div>
-        
+        </div> -->
+
 
     </div>
 </template>
 
 <style scopted>
     .footerContenair{
-        height: var(--footer-height);
+        height: 100px;
         background-color: var(--main-orange);
         box-sizing: border-box;
         /* border: 1px solid rgb(30, 255, 0); */
+        flex: 1;
         padding: 20px 20px;
         text-align: start;
+        /* margin-top: 50px; */
 
     }
 
@@ -59,7 +63,7 @@
         flex-direction: column;
         /* align-items: center; */
         width: 200px;
-        height: 100px;   
+        height: 100px;
     }
     .aideNav{
         /* border: 1px solid rgb(0, 191, 255); */
@@ -67,7 +71,7 @@
         flex-direction: column;
         /* align-items: center; */
         width: 200px;
-        height: 100px;   
+        height: 100px;
     }
 
 </style>

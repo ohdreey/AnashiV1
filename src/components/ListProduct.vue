@@ -8,7 +8,7 @@ const props = defineProps({
     }
 })
 
-    
+
         const totalProduct = computed(() => props.productInfo.length)
         console.log(totalProduct)
 
@@ -30,7 +30,7 @@ const props = defineProps({
             <p>MANTEAUX /VESTES . {{ totalProductByType('veste') }}</p>
             <p>PETITES LAINES . {{ totalProductByType('laine') }}</p>
         </div>
-        
+
     </div>
 
 </template>
@@ -38,14 +38,16 @@ const props = defineProps({
 <style scoped>
 
 .ListProductContainer{
-    width: 408px;
+  font-family: Helvetica, sans-serif;
+    width: 200px;
+    height: 400px;
     display: flex;
-    flex-direction: column;   
-    align-items: flex-start; 
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 100px 20px 20px;
     margin-left: 20px;
     font-weight: lighter;
-    /* border: 1px solid var(--main-orange); */
+    /* border: 1px solid rgb(4, 0, 255); */
 
 
 }
@@ -70,7 +72,7 @@ const props = defineProps({
     padding: 10px;
     margin-top: 10px;
     ;
-}  
+}
 
 </style>
 

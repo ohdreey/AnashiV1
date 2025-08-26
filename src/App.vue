@@ -1,35 +1,29 @@
-<script setup>
-// import {createRouter , createWebHisto}
-import Header from './components/Header.vue';
-import Home from './components/Home.vue';
-import Footer from './components/Footer.vue';
-import CardProduct from './components/CardProduct.vue';
-import productInfo from '../src/assets/productInfo.json'
-import ListProduct from './components/ListProduct.vue';
-// import { ref } from 'vue';
-
-
-</script>
-
 <template>
-
-<Header />
-  <main>
-    <!-- <Home/> -->
-     <div class="productContainer">
-        <ListProduct :productInfo="productInfo"/>
-        <CardProduct :productInfo="productInfo"/>
+  <div class="page">
+    <Header />
+    <main class="content">
+      <RouterView />
+    </main>
+    <Footer />
   </div>
-
-  </main>
-<Footer />
 </template>
 
-<style scoped>
+<script setup>
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+</script>
 
-.productContainer{
+<style scoped>
+.page {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 </style>
